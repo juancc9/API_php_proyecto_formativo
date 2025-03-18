@@ -7,7 +7,6 @@ require_once "router/router.php";
 
 // Si no hay un recurso en la URL, mostrar la vista de inicio
 if (!isset($_GET['resource'])) {
-    require_once "views/home.php";
     exit; // Evita que siga ejecutando el router
 }
 
